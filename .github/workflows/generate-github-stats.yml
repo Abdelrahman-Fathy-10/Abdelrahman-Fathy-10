@@ -24,7 +24,7 @@ jobs:
 
       - name: Install script dependencies
         working-directory: ./scripts
-        run: npm ci
+        run: npm install
 
       - name: Generate stats SVG
         working-directory: ./scripts
