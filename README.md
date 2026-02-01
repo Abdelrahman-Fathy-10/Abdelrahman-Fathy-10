@@ -82,15 +82,9 @@ Please follow the repository's style and add tests or examples when relevant. If
 
 
 ## 📊 GitHub Stats
-<p align="center">
-  <!-- Streak card (github_dark theme) -->
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Abdelrahman-Fathy-10&theme=github_dark)
-</p>
 
-<p align="center">
-  <!-- Main stats and top languages (github_dark theme) -->
-  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Abdelrahman-Fathy-10&show_icons=true&theme=github_dark)
-  &nbsp;
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelrahman-Fathy-10&layout=compact&theme=github_dark)
-</p>
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Abdelrahman-Fathy-10&theme=github_dark)
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Abdelrahman-Fathy-10&show_icons=true&theme=github_dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelrahman-Fathy-10&layout=compact&theme=github_dark)
 
