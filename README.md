@@ -94,6 +94,3 @@ Please follow the repository's style and add tests or examples when relevant. If
   ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelrahman-Fathy-10&layout=compact&theme=github_dark)
 </p>
 
-Notes:
-- If you prefer a different theme, change `theme=github_dark` to `theme=dark` or `theme=radical`, or remove the parameter for default.
-- Consider self-hosting the stats service or using GitHub Actions if you want private stats or higher reliability.
