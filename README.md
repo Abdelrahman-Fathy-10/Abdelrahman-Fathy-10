@@ -82,6 +82,7 @@ Please follow the repository's style and add tests or examples when relevant. If
 
 
 ## 📊 GitHub Stats
-![GitHub Stats](stats/github-stats.svg)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Abdelrahman-Fathy-10&show_icons=true)
+
 
 
