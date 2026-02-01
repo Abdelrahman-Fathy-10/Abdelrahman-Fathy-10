@@ -49,6 +49,6 @@
 ---
 
 ## 📊 GitHub Stats
-![Abdelrahman GitHub stats](https://github-readme-stats.vercel.app/api?username=Abdelrahman-Fathy-10&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelrahman-Fathy-10&layout=compact&theme=radical)
+![Abdelrahman GitHub stats](https://github-readme-stats.vercel.app/api?username=Abdelrahman-Fathy&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelrahman-Fathy&layout=compact&theme=radical)
 
