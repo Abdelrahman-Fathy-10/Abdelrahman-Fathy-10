@@ -83,14 +83,5 @@ Please follow the repository's style and add tests or examples when relevant. If
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://img.shields.io/github/followers/Abdelrahman-Fathy-10?label=Followers&style=social" alt="Followers" />
-</p>
-
-<p align="center">
-  ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Abdelrahman-Fathy-10&show_icons=true&theme=github_dark)
-  &nbsp;
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelrahman-Fathy-10&layout=compact&theme=github_dark)
-</p>
-
+![](./stats/github-stats.svg)
 
