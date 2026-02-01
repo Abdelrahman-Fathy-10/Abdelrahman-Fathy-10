@@ -82,6 +82,6 @@ Please follow the repository's style and add tests or examples when relevant. If
 
 
 ## 📊 GitHub Stats
+![GitHub Stats](stats/github-stats.svg)
 
-![](./stats/github-stats.svg)
 
