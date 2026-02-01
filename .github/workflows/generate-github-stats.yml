@@ -1,10 +1,8 @@
 name: Generate GitHub Stats SVG
+
 on:
   schedule:
-    - cron: '0 6 * * *' # daily at 06:00 UTC
-  push:
-    branches:
-      - main
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -14,34 +12,19 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      - name: Install script dependencies
-        working-directory: ./scripts
-        run: npm install
-
-      - name: Generate stats SVG
-        working-directory: ./scripts
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node generate-github-stats.js
-
-      - name: Commit and push generated SVG
+      - name: Generate stats
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats/github-stats.svg || true
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: update generated GitHub stats" || true
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          curl "https://github-readme-stats.vercel.app/api?username=Abdelrahman-Fathy-10&show_icons=true" \
+          -o github-stats.svg
+
+      - name: Commit SVG
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add github-stats.svg
+          git commit -m "Update GitHub stats SVG" || exit 0
+          git push
